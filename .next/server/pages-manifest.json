@@ -4,7 +4,7 @@
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
   "/about": "pages/about.js",
+  "/contactus": "pages/contactus.js",
   "/articles": "pages/articles.js",
-  "/servicepage": "pages/servicepage.js",
-  "/contactus": "pages/contactus.js"
+  "/servicepage": "pages/servicepage.js"
 }
