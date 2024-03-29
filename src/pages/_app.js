@@ -4,7 +4,7 @@ import "@/styles/globals.css";
 import { AnimatePresence } from "framer-motion"
 import { Montserrat } from "next/font/google";
 import Head from "next/head";
-import { useEffect, useReducer } from "react";
+import { useReducer } from "react";
 import 'firebase';
 
 
