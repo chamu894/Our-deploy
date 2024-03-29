@@ -1,13 +1,8 @@
-
-import React, { useState} from "react";
-
+import { Alata } from "next/font/google";
+import React, { useState } from "react";
 
 const Contact = () => {
-
-  useEffect(()=>{
-    initFlowbite();
-  },[]);
-
+  
   const [name, setName] = useState("");
   const [companyname, setCompanyname] = useState("");
   const [email, setEmail] = useState("");
