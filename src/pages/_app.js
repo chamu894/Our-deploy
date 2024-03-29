@@ -5,8 +5,8 @@ import { AnimatePresence } from "framer-motion"
 import { Montserrat } from "next/font/google";
 import Head from "next/head";
 import { useEffect, useReducer } from "react";
-import 'flowbite';
-import { initFlowbite } from "flowbite";
+
+
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -15,9 +15,7 @@ const montserrat = Montserrat({
 
 export default function App({ Component, pageProps }) {
 
-  useEffect(() => {
-    initFlowbite();
-  },[]);
+  
 
   const router = useReducer();
   return (
