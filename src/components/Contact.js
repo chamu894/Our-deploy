@@ -1,5 +1,5 @@
-import { initFlowbite } from "flowbite";
-import React, { useState } from "react";
+
+import React, { useState} from "react";
 
 
 const Contact = () => {
