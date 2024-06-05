@@ -8,7 +8,6 @@ import { LinkArrow } from "@/components/icons";
 import HireMe from "@/components/HireMe";
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
 import TransitionEffect from "@/components/TransitionEffect";
-import Iconslider from "@/components/Iconslider";
 
 export default function Home() {
   return (
@@ -64,7 +63,6 @@ export default function Home() {
               </div> */}
             </div>
           </div>
-          <Iconslider/>
         </Layout>
 
         <HireMe />
