@@ -1,12 +1,9 @@
 
 import React, { useState } from "react";
-import { initFlowbite } from "flowbite";
 
 const Contact = () => {
 
-  useEffect(() => {
-    initFlowbite();
-  },[]);
+  
   
   const [name, setName] = useState("");
   const [companyname, setCompanyname] = useState("");
