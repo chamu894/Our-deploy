@@ -41,7 +41,7 @@ const about = () => {
         <title>Itriangle | About Us</title>
         <mata name="description" content="any description" />
       </Head>
-      <TransitionEffect />
+      {/* <TransitionEffect /> */}
 
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">

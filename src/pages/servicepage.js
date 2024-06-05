@@ -17,7 +17,7 @@ const servicepage = () => {
         className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
 
       />
-      <TransitionEffect/>
+      {/* <TransitionEffect/> */}
 
       <Service/>
 
