@@ -108,8 +108,8 @@ const articles = () => {
   return (
     <>
       <Head>
-        <title>Itriangle | Artcales</title>
-        <mata name="Itriangle" content="any description" />
+        <title>ITrian | Artcales</title>
+        <mata name="ITrian" content="any description" />
       </Head>
       {/* <TransitionEffect/> */}
 

@@ -38,7 +38,7 @@ const about = () => {
   return (
     <>
       <Head>
-        <title>Itriangle | About Us</title>
+        <title>ITrian | About Us</title>
         <mata name="description" content="any description" />
       </Head>
       {/* <TransitionEffect /> */}
