@@ -64,9 +64,10 @@ export default function Home() {
                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-              From cutting-edge web development to ROI-driven digital strategies, we craft solutions that elevate your brand, boost growth, and deliver results.
+                From cutting-edge web development to ROI-driven digital
+                strategies, we craft solutions that elevate your brand, boost
+                growth, and deliver results.
               </p>
-              
             </div>
           </div>
 
@@ -78,21 +79,28 @@ export default function Home() {
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
-                Biography
+                Who We Are
               </h2>
               <p className="font-medium">
-                Meet our dynamic team at [Company Name], where innovation meets
-                creativity. Spearheading our technological endeavors is our
-                skilled Full Stack Software Engineers, CHAMUDITH BANDARA and
-                LAHIRU BANDARANAYAKA, whose expertise in crafting robust digital
-                solutions propels us forward into the digital age.
+                At Itrian, we are a team of passionate innovators, strategists,
+                and problem-solvers committed to transforming businesses in the
+                digital age. With expertise in software development and digital
+                marketing, we combine cutting-edge technology with data-driven
+                strategies to deliver scalable solutions tailored to your unique
+                goals.
               </p>
 
+              <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
+                What We Do
+              </h2>
+
               <p className="my-4 font-medium">
-                Collaborating seamlessly with our marketing initiatives is our
-                visionary Digital Marketing Executive, THARINDU MARASINGHE,
-                whose strategic prowess ensures our brand's resonance in the
-                online sphere.
+                We specialize in crafting dynamic websites, robust applications,
+                and comprehensive marketing campaigns that drive growth and
+                maximize ROI. Whether you're looking for custom web and mobile
+                app development, seamless e-commerce solutions, or impactful
+                digital marketing strategies like SEO, PPC, and social media,
+                we’re here to help you succeed.
               </p>
 
               <p className="font-medium">
@@ -152,7 +160,6 @@ export default function Home() {
           </div>
           <Experience />
           <Skills />
-
         </Layout>
 
         <HireMe />
