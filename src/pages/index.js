@@ -9,7 +9,6 @@ import AnimatedText from "@/components/AnimatedText";
 import HireMe from "@/components/HireMe";
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
 import TransitionEffect from "@/components/TransitionEffect";
-import Iconslider from "@/components/Iconslider";
 import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
 
