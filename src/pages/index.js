@@ -70,8 +70,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* <Iconslider/> */}
-
           <AnimatedText
             text="About Us!"
             className="mb-16 !text-7xl lg:!text-5xl sm:!text-6xl xs:!text-4xl sm:mb-8"
