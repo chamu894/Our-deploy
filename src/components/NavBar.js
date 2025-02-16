@@ -188,7 +188,7 @@ const NavBar = () => {
               className=""
               toggle={handleClick}
             />
-            <CustomMobileLink
+            {/* <CustomMobileLink
               href="/projects"
               title="Projects"
               className=""
@@ -199,7 +199,7 @@ const NavBar = () => {
               title="Artcales"
               className=""
               toggle={handleClick}
-            />
+            /> */}
 
             <CustomMobileLink
               href="/servicepage"
