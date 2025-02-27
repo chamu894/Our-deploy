@@ -13,6 +13,7 @@ import Iconslider from "@/components/Iconslider";
 import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
 
+
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
 
