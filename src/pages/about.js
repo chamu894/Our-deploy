@@ -41,7 +41,7 @@ const about = () => {
         <title>ITrian | About Us</title>
         <mata name="description" content="any description" />
       </Head>
-      
+      {/* <TransitionEffect /> */}
 
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
@@ -52,30 +52,28 @@ const about = () => {
 
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
-              <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
-                Biography
+              <h2 className="mb-2 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
+                Who We Are !..
               </h2>
               <p className="font-medium">
-                Meet our dynamic team at [Company Name], where innovation meets
-                creativity. Spearheading our technological endeavors is our
-                skilled Full Stack Software Engineers, CHAMUDITH BANDARA and
-                LAHIRU BANDARANAYAKA, whose expertise in crafting robust digital
-                solutions propels us forward into the digital age.
+                At Itrian, we are a team of passionate innovators, strategists,
+                and problem-solvers committed to transforming businesses in the
+                digital age. With expertise in software development and digital
+                marketing, we combine cutting-edge technology with data-driven
+                strategies to deliver scalable solutions tailored to your unique
+                goals.
               </p>
 
-              <p className="my-4 font-medium">
-                Collaborating seamlessly with our marketing initiatives is our
-                visionary Digital Marketing Executive, THARINDU MARASINGHE,
-                whose strategic prowess ensures our brand's resonance in the
-                online sphere.
-              </p>
-
+              <h2 className="mt-4 mb-2 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
+                What We Do !..
+              </h2>
               <p className="font-medium">
-                Together they have combined their talents, a testament to our
-                commitment to excellence and customer satisfaction. [Company
-                Name], we don't just build websites; We are crafting experiences
-                that resonate with our audiences, ushering in a new era of
-                digital engagement.
+                We specialize in crafting dynamic websites, robust applications,
+                and comprehensive marketing campaigns that drive growth and
+                maximize ROI. Whether you're looking for custom web and mobile
+                app development, seamless e-commerce solutions, or impactful
+                digital marketing strategies like SEO, PPC, and social media,
+                we’re here to help you succeed.
               </p>
             </div>
 
@@ -125,8 +123,72 @@ const about = () => {
               </div>
             </div>
           </div>
+
+          <h2 className="mt-10 mb-2 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
+            Our Solutions Are :
+          </h2>
+          <ul className="font-medium list-disc pl-10">
+            <li className="mt-2">
+              Custom-Built: Designed to match your specific business needs.
+            </li>
+            <li className="mt-2">
+              Future-Ready: Leveraging the latest technology and market trends.
+            </li>
+            <li className="mt-2">
+              Results-Driven: Focused on measurable outcomes that matter to you.
+            </li>
+          </ul>
+
+          <h2 className="mt-10 mb-2 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
+            Our Mission -
+          </h2>
+          <p className="font-bold">
+            To empower businesses by delivering innovative solutions that
+            combine technology and creativity, enabling them to thrive in an
+            ever-evolving digital landscape.
+          </p>
+
+          <h2 className="mt-4 mb-2 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
+            Our Vision -
+          </h2>
+          <p className="font-bold">
+            To be the trusted partner for businesses worldwide, setting
+            benchmarks in software innovation and marketing excellence.
+          </p>
+
           <Experience />
           <Skills />
+
+          <h2 className="mt-10 mb-2 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
+            Why Choose Us?
+          </h2>
+          <ul className="font-medium list-disc pl-5">
+            <li className="mt-2">
+              End-to-End Expertise: From idea to execution, we handle
+              everything.
+            </li>
+            <li className="mt-2">
+              Collaborative Approach: We work closely with our clients to ensure
+              their vision is realized.
+            </li>
+            <li className="mt-2">
+              Data-Driven Results: Every decision we make is backed by analytics
+              and industry insights.
+            </li>
+            <li className="mt-2">
+              Scalable Solutions: As your business grows, our solutions grow
+              with you.
+            </li>
+          </ul>
+
+          <h2 className="mt-10 mb-2 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
+            Join Us in Your Growth Journey
+          </h2>
+          <p className="font-medium">
+            Let us help you write your success story with cutting-edge solutions
+            and unparalleled dedication. Together, we’ll turn your ideas into
+            realities and your challenges into opportunities.
+          </p>
         </Layout>
       </main>
     </>

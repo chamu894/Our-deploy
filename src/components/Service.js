@@ -1,9 +1,11 @@
 import React from "react";
+import Layout from "./Layout";
+import Link from "next/link";
 
 const Service = () => {
   return (
     <>
-      <section className="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px]">
+      <section className="pt-0 lg:pt-[120px] pb-12 lg:pb-[90px]">
         <div className="container">
           <div className="flex flex-wrap mx-4">
             <div className="w-1/2 md:w-1/2 lg:w-1/3 px-4">
@@ -45,12 +47,30 @@ const Service = () => {
                   </svg>
                 </div>
                 <h4 className="font-semibold text-xl text-dark mb-3">
-                  Refreshing Design
+                  Software Development
                 </h4>
-                <p className="text-body-color">
-                  We dejoy working with discerning clients, people for whom
-                  qualuty, service, integrity & aesthetics.
+                <p className="font-semibold text-dark/75 dark:text-light/75 text-lg mb-2">
+                  Innovative Solutions, Tailored for You
                 </p>
+                <p className="text-body-color">
+                  We specialize in building powerful, scalable, and customized
+                  software solutions to meet your unique business needs. Whether
+                  it’s a sleek mobile app, a robust enterprise system, or a
+                  streamlined workflow tool, our team delivers cutting-edge
+                  software powered by the latest technology.
+                </p>
+                <h2 className="mt-10 mb-2 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
+                  Our Expertise Includes :
+                </h2>
+                <ul className="font-medium list-disc pl-10 pb-72">
+                  <li className="mt-2">Custom Software Development</li>
+                  <li className="mt-2">
+                    Mobile App Development (iOS & Android)
+                  </li>
+                  <li className="mt-2">Enterprise Software Solutions</li>
+                  <li className="mt-2">API Integrations and Automations</li>
+                  <li className="mt-2">SaaS Platform Development</li>
+                </ul>
               </div>
             </div>
             <div className="w-1/2 md:w-1/2 lg:w-1/3 px-4">
@@ -100,12 +120,50 @@ const Service = () => {
                   </svg>
                 </div>
                 <h4 className="font-semibold text-xl text-dark mb-3">
-                  Based on Tailwind CSS
+                  Web Development
                 </h4>
-                <p className="text-body-color">
-                  We dejoy working with discerning clients, people for whom
-                  qualuty, service, integrity & aesthetics.
+                <p className="font-semibold text-dark/75 dark:text-light/75 text-lg mb-2">
+                  Your Digital Presence, Perfected
                 </p>
+                <p className="text-body-color">
+                  Your website is the cornerstone of your brand. We design and
+                  develop responsive, SEO-friendly websites that not only look
+                  stunning but also deliver exceptional user experiences.
+                </p>
+                <h2 className="mt-10 mb-2 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
+                  What We Offer :
+                </h2>
+                <ul className="font-medium list-disc pl-10">
+                  <li className="mt-2">Custom Website Development</li>
+                  <li className="mt-2">
+                    E-Commerce Solutions (Shopify, WooCommerce)
+                  </li>
+                  <li className="mt-2">
+                    Content Management Systems (WordPress, Next.js)
+                  </li>
+                  <li className="mt-2">UI/UX Design & Prototyping</li>
+                  <li className="mt-2">Website Maintenance & Optimization</li>
+                </ul>
+                <p className="font-semibold text-dark/75 dark:text-light/75 text-lg mb-2 mt-5">
+                  Strategies That Drive Growth
+                </p>
+                <p className="text-body-color">
+                  In today’s competitive digital landscape, we craft data-driven
+                  strategies to help you reach the right audience and achieve
+                  your business goals. From brand awareness to lead generation,
+                  we ensure every campaign delivers measurable results.
+                </p>
+                <h2 className="mt-10 mb-2 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
+                  Our Core Offerings :
+                </h2>
+                <ul className="font-medium list-disc pl-10">
+                  <li className="mt-2">
+                    Comprehensive Digital Marketing Strategies
+                  </li>
+                  <li className="mt-2">Brand Development & Positioning</li>
+                  <li className="mt-2">Email Marketing & Automation</li>
+                  <li className="mt-2">Analytics and Performance Reporting</li>
+                </ul>
               </div>
             </div>
             <div className="w-1/2 md:w-1/2 lg:w-1/3 px-4">
@@ -159,12 +217,29 @@ const Service = () => {
                   </svg>
                 </div>
                 <h4 className="font-semibold text-xl text-dark mb-3">
-                  300+ Components
+                  Search Engine Optimization (SEO)
                 </h4>
-                <p className="text-body-color">
-                  We dejoy working with discerning clients, people for whom
-                  qualuty, service, integrity & aesthetics.
+                <p className="font-semibold text-dark/75 dark:text-light/75 text-lg mb-2">
+                  Be Found, Stay Relevant
                 </p>
+                <p className="text-body-color">
+                  Boost your online visibility and drive organic traffic to your
+                  website with our SEO expertise. From on-page optimizations to
+                  advanced link-building strategies, we’ll help your website
+                  rank higher on search engines.
+                </p>
+                <h2 className="mt-10 mb-2 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
+                  Our SEO Services Include :
+                </h2>
+                <ul className="font-medium list-disc pl-10">
+                  <li className="mt-2">On-Page and Technical SEO</li>
+                  <li className="mt-2">
+                    Keyword Research and Content Optimization
+                  </li>
+                  <li className="mt-2">Link-Building and Outreach Campaigns</li>
+                  <li className="mt-2">Local SEO for Targeted Audiences</li>
+                  <li className="mt-2">SEO Audits and Reporting</li>
+                </ul>
               </div>
             </div>
             <div className="w-1/2 md:w-1/2 lg:w-1/3 px-4">
@@ -218,12 +293,33 @@ const Service = () => {
                   </svg>
                 </div>
                 <h4 className="font-semibold text-xl text-dark mb-3">
-                  Speed Optimized
+                  Paid Media
                 </h4>
-                <p className="text-body-color">
-                  We dejoy working with discerning clients, people for whom
-                  qualuty, service, integrity & aesthetics.
+                <p className="font-semibold text-dark/75 dark:text-light/75 text-lg mb-2">
+                  Maximize ROI with Precision Targeting
                 </p>
+                <p className="text-body-color">
+                  Our paid media strategies are designed to deliver results. We
+                  create, manage, and optimize ad campaigns on platforms like
+                  Google, Facebook, Instagram, and more to ensure maximum ROI
+                  for your budget.
+                </p>
+                <h2 className="mt-10 mb-2 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
+                  What We Do :
+                </h2>
+                <ul className="font-medium list-disc pl-10">
+                  <li className="mt-2">
+                    Google Ads Campaign Management (Search, Display, YouTube)
+                  </li>
+                  <li className="mt-2">
+                    Social Media Ad Campaigns (Facebook, Instagram, LinkedIn,
+                    TikTok)
+                  </li>
+                  <li className="mt-2">
+                    Retargeting and Remarketing Campaigns
+                  </li>
+                  <li className="mt-2">Conversion Rate Optimization (CRO)</li>
+                </ul>
               </div>
             </div>
             <div className="w-1/2 md:w-1/2 lg:w-1/3 px-4">
@@ -265,66 +361,67 @@ const Service = () => {
                   </svg>
                 </div>
                 <h4 className="font-semibold text-xl text-dark mb-3">
-                  Fully Customizable
+                  Social Media Management
                 </h4>
-                <p className="text-body-color">
-                  We dejoy working with discerning clients, people for whom
-                  qualuty, service, integrity & aesthetics.
+                <p className="font-semibold text-dark/75 dark:text-light/75 text-lg mb-2">
+                  Your Brand, Front and Center
                 </p>
-              </div>
-            </div>
-            <div className="w-1/2 md:w-1/2 lg:w-1/3 px-4">
-              <div
-                className="
-               p-10
-               md:px-7
-               xl:px-10
-               rounded-[20px]
-               bg-white
-               shadow-md
-               hover:shadow-lg
-               mb-8
-               "
-              >
-                <div
-                  className="
-                  w-[70px]
-                  h-[70px]
-                  flex
-                  items-center
-                  justify-center
-                  bg-primary
-                  rounded-2xl
-                  mb-8
-                  "
-                >
-                  <svg
-                    width="35"
-                    height="35"
-                    viewBox="0 0 35 35"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M4.04684 15.5859C4.2109 15.5859 4.37497 15.5859 4.48434 15.5313L10.5547 13.3984C11.0468 13.2344 11.3203 12.6875 11.1562 12.1953C10.9922 11.7031 10.4453 11.4297 9.95309 11.5938L6.28903 12.9063C8.09372 7.92969 12.8515 4.53906 18.375 4.53906C24.2265 4.53906 29.3672 8.42188 30.789 14.0547C30.8984 14.5469 31.4453 14.875 31.9375 14.7656C32.4297 14.6563 32.7578 14.1094 32.6484 13.6172C31.0078 7.16406 25.1015 2.67969 18.375 2.67969C11.8125 2.67969 6.12497 6.89063 4.26559 13.0156L2.57028 8.25781C2.40622 7.76563 1.85934 7.49219 1.36715 7.65625C0.874967 7.82031 0.60153 8.36719 0.765592 8.85938L2.84372 14.8203C3.00778 15.2578 3.55465 15.5859 4.04684 15.5859Z"
-                      fill="white"
-                    />
-                    <path
-                      d="M34.2343 27.2891L31.9922 21.3828C31.8828 21.0547 31.6093 20.7812 31.2812 20.6719C30.9531 20.5625 30.625 20.5078 30.2968 20.6719L24.2812 22.9687C23.789 23.1328 23.5156 23.7344 23.7343 24.2266C23.8984 24.7187 24.5 24.9922 24.9922 24.7734L28.7109 23.3516C26.6328 27.6719 22.2031 30.5156 17.1718 30.5156C11.6484 30.5156 6.78122 27.0703 5.0859 21.9297C4.86715 21.4375 4.32028 21.1641 3.82809 21.3281C3.3359 21.4922 3.06247 22.0391 3.22653 22.5312C5.19528 28.4375 10.7734 32.4297 17.1172 32.4297C23.1328 32.4297 28.4922 28.875 30.6797 23.4609L32.4297 28C32.5937 28.3828 32.9218 28.6016 33.3047 28.6016C33.414 28.6016 33.5234 28.6016 33.6328 28.5469C34.1797 28.3281 34.4531 27.7813 34.2343 27.2891Z"
-                      fill="white"
-                    />
-                  </svg>
-                </div>
-                <h4 className="font-semibold text-xl text-dark mb-3">
-                  Regular Updates
-                </h4>
                 <p className="text-body-color">
-                  We dejoy working with discerning clients, people for whom
-                  qualuty, service, integrity & aesthetics.
+                  Stay relevant, engaging, and visible on social platforms with
+                  our social media management services. We’ll craft compelling
+                  content, build your audience, and manage your platforms so you
+                  can focus on running your business.
                 </p>
+                <h2 className="mt-10 mb-2 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
+                  Our Services Include :
+                </h2>
+                <ul className="font-medium list-disc pl-10">
+                  <li className="mt-2">Social Media Strategy and Planning</li>
+                  <li className="mt-2">
+                    Content Creation (Graphics, Videos, Captions)
+                  </li>
+                  <li className="mt-2">
+                    Audience Engagement and Community Management
+                  </li>
+                  <li className="mt-2">Monthly Performance Analysis</li>
+                  <li className="mt-2">
+                    Platform Management (Facebook, Instagram, LinkedIn, TikTok,
+                    YouTube)
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
+          <main className="flex w-full flex-col items-center justify-center dark:text-light">
+            <Layout className="pt-16">
+              <h2 className="mt-10 mb-2 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
+                Why Choose Us?
+              </h2>
+              <ul className="font-medium list-disc pl-5">
+                <li className="mt-2">
+                  Customized Solutions: No cookie-cutter strategies—everything
+                  is tailored to your goals.
+                </li>
+                <li className="mt-2">
+                  Proven Expertise: A team of experienced professionals with a
+                  track record of success.
+                </li>
+                <li className="mt-2">
+                  Results-Driven: We focus on measurable outcomes to grow your
+                  business.
+                </li>
+                <li className="mt-2">
+                  End-to-End Support: From strategy to execution, we’re with you
+                  every step of the way.
+                </li>
+              </ul>
+
+              
+              <p className="font-semibold text-xl mt-5">
+              Let us help you take your business to the next level with our comprehensive services. <a href="contactus" className="text-blue-700">Contact us today</a> to get started!
+              </p>
+            </Layout>
+          </main>
         </div>
       </section>
     </>

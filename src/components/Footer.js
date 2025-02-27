@@ -14,7 +14,7 @@ const Footer = () => {
           Build Width{" "}
           <span className="text-primary dark:text-primaryDark text-2xl px-1">&#9825;</span>{" "}
           <Link href="/" className="underline underline-offset-2">
-            ITrian
+            Chamudith Bandara
           </Link>
         </div>
         <Link href="/" className="underline underline-offset-2">
